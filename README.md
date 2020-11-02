@@ -22,15 +22,15 @@ IBM 5081 Punch Card (80 columns)
      / &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?                  |
 12  /  ▮           ▮▮▮▮▮▮▮▮▮                        ▮▮▮▮▮▮                              |
 11 |    ▮                   ▮▮▮▮▮▮▮▮▮                     ▮▮▮▮▮▮                        |
- 0 |     ▮                           ▮▮▮▮▮▮▮▮▮                  ▮▮▮▮▮▮                  |
+ 0 |     ▮                           ▮▮▮▮▮▮▮▮▮                   ▮▮▮▮▮                  |
  1 |      ▮        ▮        ▮        ▮                                                  |
- 2 |       ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮     ▮                 |
+ 2 |       ▮        ▮        ▮        ▮       ▮     ▮     ▮                             |
  3 |        ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                      |
  4 |         ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                     |
  5 |          ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                    |
  6 |           ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                   |
  7 |            ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                  |
- 8 |             ▮        ▮        ▮        ▮ ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮                  |
+ 8 |             ▮        ▮        ▮        ▮ ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ ▮▮▮▮▮                  |
  9 |              ▮        ▮        ▮        ▮                                          |
    |____________________________________________________________________________________|
 
@@ -39,7 +39,7 @@ IBM 5081 Punch Card (80 columns)
 Each column in the punch card corresponds to an encoded character.
 In this example, the punch card was punched using the IBM 029 keypunch with its own encoding method.
 
-Valid characters are ```&-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ&-/:#@'="¢.<(+|!$*);¬ ,%_>?```
+Valid characters are ```&-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?```
 
 This character set was used in early FORTRAN, RPG, and COBOL programming (and probably more).
 
@@ -57,6 +57,7 @@ Examples of generating punchcards for some legacy programming languages.
 - https://golang.org/doc/code.html
 - [IBM 29 Card Punch Reference Manual (1970)](http://bitsavers.org/pdf/ibm/punchedCard/Keypunch/029/GA24-3332-6_Reference_Manual_Model_29_Card_Punch_Jun70.pdf)
 - [Virtual keypunch](https://www.masswerk.at/keypunch/)
+- [Punched Card Typography IBM 026, 029, 129](https://www.masswerk.at/misc/card-punch-typography/)
 - http://www.columbia.edu/cu/computinghistory/029.html
 - https://twobithistory.org/2018/06/23/ibm-029-card-punch.html
 - https://homepage.divms.uiowa.edu/~jones/cards/index.html
