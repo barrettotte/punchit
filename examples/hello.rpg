@@ -1,0 +1,5 @@
+     C* HELLO WORLD IN RPG
+     C                     MOVEL'HELLO'   HELLO  11
+     C                     MOVE 'WORLD'   HELLO
+     C           HELLO     DSPLY
+     C                     SETON                     LR
