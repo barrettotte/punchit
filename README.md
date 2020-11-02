@@ -17,22 +17,22 @@ Some of this stuff is a little confusing to me.
 ```
 IBM 5081 Punch Card (80 columns)
 
-      .........1.........2.........3.........4.........5.........6.........7.........8  
-      _________________________________________________________________________________ 
-     / &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);^ ,%_>?                 |
-12  /  ▮           ▮▮▮▮▮▮▮▮▮                        ▮▮▮▮▮▮                             |
-11 |    ▮                   ▮▮▮▮▮▮▮▮▮                     ▮▮▮▮▮▮                       |
- 0 |     ▮                           ▮▮▮▮▮▮▮▮▮                  ▮▮▮▮▮▮                 |
- 1 |      ▮        ▮        ▮        ▮                                                 |
- 2 |       ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮     ▮                |
- 3 |        ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                     |
- 4 |         ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                    |
- 5 |          ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                   |
- 6 |           ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                  |
- 7 |            ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                 |
- 8 |             ▮        ▮        ▮        ▮ ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮                 |
- 9 |              ▮        ▮        ▮        ▮                                         |
-   |___________________________________________________________________________________|
+       .........1.........2.........3.........4.........5.........6.........7.........8  
+      __________________________________________________________________________________ 
+     / &-0123456789ABCDEFGHIJKLMNOPQR/STUVWXYZ:#@'="¢.<(+|!$*);¬ ,%_>?                  |
+12  /  ▮           ▮▮▮▮▮▮▮▮▮                        ▮▮▮▮▮▮                              |
+11 |    ▮                   ▮▮▮▮▮▮▮▮▮                     ▮▮▮▮▮▮                        |
+ 0 |     ▮                           ▮▮▮▮▮▮▮▮▮                  ▮▮▮▮▮▮                  |
+ 1 |      ▮        ▮        ▮        ▮                                                  |
+ 2 |       ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮     ▮                 |
+ 3 |        ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                      |
+ 4 |         ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                     |
+ 5 |          ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                    |
+ 6 |           ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                   |
+ 7 |            ▮        ▮        ▮        ▮       ▮     ▮     ▮     ▮                  |
+ 8 |             ▮        ▮        ▮        ▮ ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮                  |
+ 9 |              ▮        ▮        ▮        ▮                                          |
+   |____________________________________________________________________________________|
 
 ```
 
@@ -41,43 +41,16 @@ In this example, the punch card was punched using the IBM 029 keypunch with its 
 
 Valid characters are ```&-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ&-/:#@'="¢.<(+|!$*);¬ ,%_>?```
 
-This character was used in early FORTRAN, RPG, and COBOL programming (and probably more).
+This character set was used in early FORTRAN, RPG, and COBOL programming (and probably more).
 
-Please read more about punch cards on the [wiki page](https://en.wikipedia.org/wiki/Punched_card).
+Please read more about the history of punch cards on the [wiki page](https://en.wikipedia.org/wiki/Punched_card).
 
 
 ## Examples
-
-### RPG
-```RPG
-     C* HELLO WORLD IN RPG                             
-     C                     MOVEL'HELLO'   HELLO  11    
-     C                     MOVE 'WORLD'   HELLO        
-     C           HELLO     DSPLY                       
-     C                     SETON                     LR
-```
-
-### FORTRAN IV
-```fortran
-C     HELLO WORLD IN FORTRAN IV
-      PROGRAM HELLO
-      WRITE (*,100)
-      STOP
-  100 FORMAT (' HELLO WORLD! ' /)
-      END
-```
-
-### COBOL
-```COBOL
-      * HELLO WORLD IN COBOL 
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID. HELLO.
-       ENVIRONMENT DIVISION.
-       DATA DIVISION.
-       PROCEDURE DIVISION.
-           DISPLAY "HELLO WORLD"
-           STOP RUN.
-```
+Examples of generating punchcards for some legacy programming languages.
+- [hello.cob](examples/hello.cob) - hello world in COBOL
+- [hello.f](examples/hello.f) - hello world in FORTRAN IV
+- [hello.rpg](examples/hello.rpg) - hello world in RPG
 
 
 ## References
