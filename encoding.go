@@ -1,4 +1,4 @@
-package main
+package punchit
 
 // IBM 029 encoding map tranposed as "12-bit binary string"
 // 1 = punch, 0 = no punch  (high bit => top ; low bit => bottom)

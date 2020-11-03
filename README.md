@@ -1,16 +1,11 @@
 # punchit
-A basic Go package to convert to/from IBM 5081 (80 column) punch cards encoded by an IBM 029 keypunch. 
+A basic Go package to convert source to IBM 5081 (80 column) punch cards encoded by an IBM 029 keypunch. 
 
 The IBM 029 encoding was introduced around 1964 alongside the IBM System/360 and was used in early FORTRAN, COBOL, and RPG programming.
 
 This small weekend project was mainly to dip my toes into Go and learn more about how punchcards worked.
 I'm around 75% sure I got the IBM 029 encoding and other terminology correct. 
 Some of this stuff is a little confusing to me.
-
-
-## Features
-- Convert source to punchcards (serialize)
-- Convert punchcards to source (deserialize)
 
 
 ## Introduction to Punch Cards
@@ -45,6 +40,11 @@ This character set was used in early FORTRAN, RPG, and COBOL programming (and pr
 
 Please read more about the history of punch cards on the [wiki page](https://en.wikipedia.org/wiki/Punched_card).
 
+
+## Usage
+```go
+TODO:
+```
 
 ## Examples
 Examples of generating punchcards for some legacy programming languages.
