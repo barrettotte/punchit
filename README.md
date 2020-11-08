@@ -42,15 +42,15 @@ Please read more about the history of punch cards on the [wiki page](https://en.
 
 
 ## Usage
-```go
-TODO:
-```
+See example of punching a directory of sample files at [examples/main.go](examples/main.go)
+
 
 ## Examples
-Examples of generating punchcards for some legacy programming languages.
-- [hello.cob](examples/hello.cob) - hello world in COBOL
-- [hello.f](examples/hello.f) - hello world in FORTRAN IV
-- [hello.rpg](examples/hello.rpg) - hello world in RPG
+Examples of generated punchcards for some legacy programming languages.
+
+- [hello.cob](examples/cards/hello.cob.txt) - hello world in COBOL
+- [hello.f](examples/cards/hello.f.txt) - hello world in FORTRAN IV
+- [hello.rpg](examples/cards/hello.rpg.txt) - hello world in RPG
 
 
 ## References
