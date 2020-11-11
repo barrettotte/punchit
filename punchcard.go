@@ -17,7 +17,7 @@ type Punchcard struct {
 
 func (p *Punchcard) String() string {
 	var sb strings.Builder
-	r := strings.NewReplacer("0", " ", "1", "▮")
+	r := strings.NewReplacer("0", " ", "1", "X")
 
 	// top
 	sb.WriteString(fmt.Sprintf("      %s", strings.Repeat("_", cols+2)))
